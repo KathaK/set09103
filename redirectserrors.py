@@ -1,8 +1,8 @@
 from flask import Flask, redict, url_for
 app = Flask(__name__)
 
-@app.route(@/private")
-def private()
+@app.route("/private")
+def private():
   # Test for user logged in failed
   # so redirect to login URL
   return redirect(url_for('login'))
